@@ -78,4 +78,32 @@ img{
   /* height:700px; */
 }
 
+.containerx{
+  width:80%;
+  margin:auto;
+}
+
+/* media query */
+@media only screen and (max-width: 480px) {
+  .content2 p,
+  h1,
+  .content2 .card,body,
+  footer {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content2 p,body,
+  h1,
+  .content2 .card,
+  footer {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  .content {
+    text-align: center !important;
+  }
 }
