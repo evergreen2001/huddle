@@ -83,22 +83,18 @@ img {
 
 /* media query */
 @media only screen and (max-width: 480px) {
-  .content2 p,
-  h1,
-  .content2 .card,
-  body,
-  footer {
+
+  .content, .containerx
+  {
     padding: 0 !important;
     text-align: center !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .content2 p,
-  body,
-  h1,
-  .content2 .card,
-  footer {
+ 
+  .containerx , .content
+  {
     padding: 0 !important;
     text-align: center !important;
   }
