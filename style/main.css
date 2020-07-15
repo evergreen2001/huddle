@@ -5,15 +5,13 @@
 
 body {
   background-color: #fff;
-
 }
 
-header {
-}
 
-h1, h2 {
-  font-family: 'Poppins', sans-serif;
 
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
 }
 .content1 img {
   width: 100%;
@@ -26,10 +24,9 @@ header .nav-btn {
   background-color: #fff;
   outline: none;
   border-radius: 50px;
-  /* width:15%; */
-  height: auto;
-  font-family: 'Open Sans', sans-serif;
 
+  height: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .content1 {
@@ -54,21 +51,17 @@ h1 {
 .hero-btn {
   outline: none;
   border-radius: 50px;
-  /* width:15%; */
+
   height: auto;
   background-color: hsl(322, 100%, 66%);
   color: #fff;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-
-  
+  font-family: "Open Sans", sans-serif;
 }
 p {
   font-size: 18px;
 }
 
-.row {
-}
 .col-image {
   margin-top: 5rem;
 }
@@ -82,7 +75,6 @@ p {
 
   border-radius: 20px;
   box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
-
 }
 
 .containerx {
@@ -101,7 +93,6 @@ p {
 @media only screen and (max-width: 768px) {
   .containerx,
   .content {
-   
     text-align: center !important;
   }
 
@@ -121,15 +112,14 @@ p {
   text-align: center;
   padding: 50px;
 
-  top:240px;
+  top: 240px;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
   font-size: 14px;
- 
-  font-family: 'Open Sans', sans-serif;
 
+  font-family: "Open Sans", sans-serif;
 }
 
 footer ul {
@@ -139,19 +129,15 @@ footer ul {
 footer li {
   margin-top: 10px;
 }
-.icon{
-  width:3.3rem
- 
+.icon {
+  width: 3.3rem;
 }
-
-
 
 footer .down {
   padding-top: 200px;
 }
 
-.fa{
-  font-size:30px;
-  margin:20px;
-
+.fa {
+  font-size: 30px;
+  margin: 20px;
 }
