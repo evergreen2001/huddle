@@ -5,11 +5,16 @@
 
 body {
   background-color: #fff;
+
 }
 
 header {
 }
 
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+
+}
 .content1 img {
   width: 100%;
 }
@@ -23,6 +28,8 @@ header .nav-btn {
   border-radius: 50px;
   /* width:15%; */
   height: auto;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .content1 {
@@ -32,7 +39,7 @@ header .nav-btn {
   background-size: cover;
   background-position: 100%;
   height: 100%;
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.462);
 }
 
 h1 {
@@ -52,7 +59,9 @@ h1 {
   background-color: hsl(322, 100%, 66%);
   color: #fff;
   font-size: 14px;
-  font-family: open-san;
+  font-family: 'Open Sans', sans-serif;
+
+  
 }
 p {
   font-size: 18px;
@@ -70,10 +79,10 @@ p {
 
 .rowx {
   box-shadow: 1px 1px #fff;
-  /* border-radius:50px; */
+
   border-radius: 20px;
   box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
-  /* height:700px; */
+
 }
 
 .containerx {
@@ -92,7 +101,7 @@ p {
 @media only screen and (max-width: 768px) {
   .containerx,
   .content {
-    /* padding: 0 !important; */
+   
     text-align: center !important;
   }
 
@@ -104,19 +113,23 @@ p {
 .community {
   position: relative;
   margin: auto;
-  width: 50%;
+  width: 70%;
   background-color: #fff;
   margin-top: 200px;
   box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
   border-radius: 30px;
   text-align: center;
   padding: 50px;
+
+  top:240px;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
   font-size: 14px;
-  /* height:400px; */
+ 
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 footer ul {
@@ -128,13 +141,17 @@ footer li {
 }
 .icon{
   width:3.3rem
-  /* flex-shrink:none; */
+ 
 }
 
-footer .container {
-  /* margin-top:200px; */
-}
+
 
 footer .down {
   padding-top: 200px;
+}
+
+.fa{
+  font-size:30px;
+  margin:20px;
+
 }
