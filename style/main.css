@@ -17,7 +17,7 @@ h2 {
   width: 100%;
 }
 header img {
-  width: 80%;
+  width: 50%;
 }
 
 header .nav-btn {
@@ -139,5 +139,5 @@ footer .down {
 
 .fa {
   font-size: 30px;
-  margin: 20px;
+  margin: 5px;
 }
