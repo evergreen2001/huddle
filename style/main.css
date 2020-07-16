@@ -13,10 +13,10 @@ h1,
 h2 {
   font-family: "Poppins", sans-serif;
 }
-.content1 img {
+.content1 .mockup img {
   width: 100%;
 }
-header img {
+.logo{
   width: 50%;
 }
 
@@ -111,8 +111,8 @@ p {
   border-radius: 30px;
   text-align: center;
   padding: 50px;
-
-  top: 240px;
+  font-size:14px;
+  top: 100px;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
