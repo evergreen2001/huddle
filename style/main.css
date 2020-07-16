@@ -5,10 +5,13 @@
 
 body {
   background-color: #fff;
-  width:100%;
+  width: 100%;
+  margin: 0;
 }
 
-
+.navbar{
+  flex-wrap:nowrap;
+}
 
 h1,
 h2 {
@@ -17,15 +20,15 @@ h2 {
 .content1 .mockup img {
   width: 100%;
 }
-.logo{
-  width: 50%;
+.logo {
+  width: 70%;
 }
 
 header .nav-btn {
   background-color: #fff;
   outline: none;
   border-radius: 50px;
-
+font-size:0.9rem;
   height: auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -58,6 +61,8 @@ h1 {
   color: #fff;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  width:70%;
+  height:15%;
 }
 p {
   font-size: 18px;
@@ -83,11 +88,32 @@ p {
   margin: auto;
 }
 
+.community {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  background-color: #fff;
+  margin-top: 180px;
+  box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
+  border-radius: 30px;
+  text-align: center;
+  padding: 21px;
+  font-size: 14px;
+  top: 60px;
+}
 /* media query */
 @media only screen and (max-width: 480px) {
   .content,
   .containerx {
     text-align: center !important;
+  }
+
+  .content1 {
+    background-image: url(../images/bg-hero-mobile.svg);
+  }
+  .community {
+    width: 100%;
+    font-size: 9px;
   }
 }
 
@@ -102,24 +128,11 @@ p {
   }
 }
 
-.community {
-  position: relative;
-  margin: auto;
-  width: 70%;
-  background-color: #fff;
-  margin-top: 200px;
-  box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
-  border-radius: 30px;
-  text-align: center;
-  padding: 50px;
-  font-size:14px;
-  top: 100px;
-}
 footer {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
   font-size: 14px;
-width:100%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -139,6 +152,6 @@ footer .down {
 }
 
 .fa {
-  font-size: 30px;
-  margin: 5px;
+  font-size: 26px;
+  margin: 3px;
 }
