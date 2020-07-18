@@ -9,8 +9,8 @@ body {
   margin: 0;
 }
 
-.navbar{
-  flex-wrap:nowrap;
+.navbar {
+  flex-wrap: nowrap;
 }
 
 h1,
@@ -28,7 +28,7 @@ header .nav-btn {
   background-color: #fff;
   outline: none;
   border-radius: 50px;
-font-size:0.9rem;
+  font-size: 0.9rem;
   height: auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -39,7 +39,7 @@ font-size:0.9rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
-  background-color: rgba(0, 255, 255, 0.231);
+  /* background-color: rgba(0, 255, 255, 0.061); */
 }
 
 h1 {
@@ -61,8 +61,8 @@ h1 {
   color: #fff;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  width:70%;
-  height:15%;
+  width: 70%;
+  height: 15%;
 }
 p {
   font-size: 18px;
